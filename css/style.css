@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 41px;
+}
+
+.header__list-link {
+    transition: all .5s ease;
+}
+
+.header__list-link:hover {
+    color: #07A7EB;
+    text-decoration: underline;
+}
+
+@supports (column-gap: 10px) {
+    .header__list {
+        column-gap: 41px;
+    }
+}
+
+@supports not (column-gap: 10px) {
+    .header__list:not(:last-child) {
+        margin: 41px;
+    }
+}
+
+.hero {
+    padding: 80px 0 109px;
+    background: url(../image/hero.png) left/cover;
+    min-height: 650px;
+    color: #FFFFFF;
+}
+
+.hero__title {
+    font-size: 3.125rem;
+    line-height: 66px;
+    max-width: 618px;
+    margin-bottom: 40px;
+}
+
+.hero__list {
+    margin-bottom: 79px;
+}
+
+.hero__list-item {
+    position: relative;
+    padding-left: 45px;
+    font-size: 1.5rem;
+}
+
+.hero__list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../image/vector.png);
+    width: 24px;
+    height: 14px;
+}
+
+.hero__list-item--fonts {
+    font-weight: 700;
+}
+
+.hero__list-item:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.button {
+    background-color: #07A7EB;
+    border-radius: 8px;
+    border-style: none;
+    outline-style: none;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+}
+
+.button:hover {
+    background-color: #45C7FF;
+}
+
+.button:active {
+    background-color: #017BBF;;
+}
+
+.button1 {
+    min-width: 380px;
+    padding: 19px 60px;
+}
+
+
+
+

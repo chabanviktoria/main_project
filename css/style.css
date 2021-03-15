@@ -276,6 +276,10 @@ img {
     border: 3px solid #017BBF;
 }
 
+.partners {
+    margin-bottom: 66px;
+}
+
 .partners__title h2 {
     font-size: 2.25rem;
     font-weight: 400px;
@@ -287,4 +291,21 @@ img {
 
 .partners__logo img:not(:nth-child(5n)) {
     padding-right: 50px;
+}
+
+.form-group {
+    background: url(../image/bg_form.png);
+    min-height: 640px;
+}
+
+.form__title {
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 63px;
+}
+
+.button2 {
+    padding: 19px 147px;
 }

@@ -275,3 +275,16 @@ img {
     background-color: #017BBF;
     border: 3px solid #017BBF;
 }
+
+.partners__title h2 {
+    font-size: 2.25rem;
+    font-weight: 400px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 63px;
+    margin-bottom: 50px;
+}
+
+.partners__logo img:not(:nth-child(5n)) {
+    padding-right: 50px;
+}

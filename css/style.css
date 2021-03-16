@@ -153,15 +153,11 @@ img {
 }
 
 .services {
-    min-height: 930px;
-}
-
-.services-container {
-    position: relative;
+    padding: 63px 0 ;
 }
 
 .services__title {
-    margin: 63px 0 54px;
+    margin: 0 0 54px;
     font-weight: 400;
     font-size: 2.25rem;
     text-align: center;
@@ -222,28 +218,25 @@ img {
 
 .banner-container {
     background: url(../image/banner.png) right/cover;
-    height: 640px;
-    padding-right: 77px;
+    padding: 65px 77px 85px 0;
+}
+
+.content {
+    max-width: 628px;
+    margin-left: auto;
 }
 
 .banner__title {
-    min-height: 96px;
-    width: 628px;
-    margin-left: 50%;
 }
 
 .banner__title h2 {
     font-size: 2.25rem;
     line-height: 48px;
     text-align: left;
-    padding-top: 65px;
-    padding-bottom: 26px;
+    margin-bottom: 26px;
 }
 
 .banner__paragraph {
-    min-height: 270px;
-    width: 628px;
-    margin-left: 50%;
     line-height: 22px;
 }
 
@@ -261,10 +254,9 @@ img {
 
 .banner__btn {
     color: #07A7EB;
-    font-size: 1.125;
+    font-size: 1.125rem;
     font-weight: 700;
     padding: 19px 32px;
-    margin-left: 50%;
     margin-top: 40px;
     border: 3px solid #07A7EB;
     box-sizing: border-box;
@@ -289,8 +281,7 @@ img {
 
 .partners__title h2 {
     font-size: 2.25rem;
-    font-weight: 400px;
-    line-height: 48px;
+    font-weight: 400;
     text-align: center;
     padding-top: 63px;
     margin-bottom: 50px;

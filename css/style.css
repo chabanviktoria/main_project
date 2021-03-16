@@ -26,6 +26,7 @@ html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000000;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -116,7 +117,7 @@ img {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url(../image/vector.png);
+    background: url(../image/Vector.png);
     width: 24px;
     height: 14px;
 }
@@ -166,26 +167,26 @@ img {
     text-align: center;
 }
 
-.services__box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .services__list {
     display: flex;
-    row-gap: 60px;
     flex-wrap: wrap;
 }
 
 .services__list-item {
     display: flex;
-    align-self: center;
-    max-width: 420px;
-    max-height: 250px;
+    flex: 1 1 calc(100%/3);
     position: relative;
-    padding-top: 112px;
+    padding: 139px 0 33px;
+    background-image: url("../image/car.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.services__list-item:hover {
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
+    background-image: url("../image/car_hover.png");
 }
 
 .services__list-item--title {
@@ -208,9 +209,15 @@ img {
     margin-bottom: 10px;
 }
 
+.services__list-link {
+    width: 100%;
+}
+
 .services__list-item a p {
     text-align: center;
     line-height: 22px;
+    margin: 0 auto;
+    max-width: 330px;
 }
 
 .banner-container {

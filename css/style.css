@@ -88,7 +88,7 @@ img {
 
 .hero {
     padding: 80px 0 109px;
-    background: url(../image/hero.png) left/cover;
+    background: url("../image/hero.png") left/cover #036092;
     min-height: 650px;
     color: #FFFFFF;
 }
@@ -116,7 +116,7 @@ img {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url(../image/vector.png);
+    background: url("../image/vector.png");
     width: 24px;
     height: 14px;
 }
@@ -140,10 +140,12 @@ img {
 
 .button:hover {
     background-color: #45C7FF;
+    transition: all .5s ease;
 }
 
 .button:active {
-    background-color: #017BBF;;
+    background-color: #017BBF;
+    ;
 }
 
 .button1 {
@@ -162,17 +164,19 @@ img {
 }
 
 .services__list {
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .services__list-item {
-    display: flex;
     flex: 1 1 calc(100%/3);
     position: relative;
-    padding: 139px 0 33px;
+    padding: 139px 20px 33px;
     cursor: pointer;
     border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center 27px;
+    text-align: center;
 }
 
 .services__list-item:hover {
@@ -181,116 +185,174 @@ flex-wrap: wrap;
 
 .item1 {
     background-image: url("../image/import.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
+
 }
 
 .item1:hover {
-    background-image: url(../image/import_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/import_hover.png");
+    transition: all .5s ease;
 }
 
 .item2 {
     background-image: url("../image/broker.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item2:hover {
-    background-image: url(../image/broker_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/broker_hover.png");
+    transition: all .5s ease;
 }
 
 .item3 {
     background-image: url("../image/export.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item3:hover {
-    background-image: url(../image/export_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/export_hover.png");
+    transition: all .5s ease;
 }
 
 .item4 {
     background-image: url("../image/car.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item4:hover {
-    background-image: url(../image/car_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/car_hover.png");
+    transition: all .5s ease;
 }
 
 .item5 {
     background-image: url("../image/insurance.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item5:hover {
-    background-image: url(../image/insurance_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/insurance_hover.png");
+    transition: all .5s ease;
 }
 
 .item6 {
     background-image: url("../image/lawyer.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item6:hover {
-    background-image: url(../image/lawyer_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/lawyer_hover.png");
+    transition: all .5s ease;
 }
 
 .item7 {
     background-image: url("../image/china.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item7:hover {
-    background-image: url(../image/china_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/china_hover.png");
+    transition: all .5s ease;
 }
 
 .item8 {
     background-image: url("../image/harbor.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item8:hover {
-    background-image: url(../image/harbor_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/harbor_hover.png");
+    transition: all .5s ease;
 }
 
 .item9 {
     background-image: url("../image/logistics.png");
-    background-repeat: no-repeat;
-    background-position: center 27px;
 }
 
 .item9:hover {
-    background-image: url(../image/logistics_hover.png);
-    background-repeat: no-repeat;
-    background-position: center 27px;
+    background-image: url("../image/logistics_hover.png");
+    transition: all .5s ease;
 }
 
 .services__list-link {
     padding: 25px 45px 11px;
 }
 
-.services__list-link h3 {
-    
+.services__list-item h3 {
+    font-size: 1.375rem;
+    margin-bottom: 10px;
+}
+
+.services__list-item p {
+    min-width: 330px;
+    line-height: 22px;
+}
+
+.banner-container {
+    background: url("../image/banner.png") no-repeat right/cover, #cccccc;
+    padding: 65px 77px 85px 15px;
+}
+
+.banner__content {
+    max-width: 628px;
+    margin-left: auto;
+}
+
+.banner__content h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 26px;
+}
+
+.banner__content p {
+    line-height: 22px;
+}
+
+.banner__content p:not(:last-of-type) {
+    padding-bottom: 20px;
+}
+
+.banner__content p:last-of-type {
+    margin-bottom: 40px;
+}
+
+.banner__content span {
+    font-weight: 700;
+}
+
+.banner__btn {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #07A7EB;
+    padding: 19px 32px;
+    border: 3px solid #07A7EB;
+    border-radius: 8px;
+    outline-style: none;
+}
+
+.banner__btn:hover {
+    background-color: #07A7EB;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.banner__btn:active {
+    background-color: #017BBF;
+    color: #FFFFFF;
+    border: 3px solid #017BBF;
+}
+
+.partners {
+    padding: 63px 0 66px;
+}
+
+.partners__title {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.partners__logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.partners__logo img {
+    max-width: 200px;
+    width: 100%;
 }

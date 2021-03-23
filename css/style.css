@@ -152,160 +152,145 @@ img {
 }
 
 .services {
-    min-height: 930px;
-}
-
-.services-container {
-    position: relative;
+    padding: 63px 0;
 }
 
 .services__title {
-    margin: 63px 0 54px;
-    font-weight: 400;
     font-size: 2.25rem;
+    font-weight: 400;
     text-align: center;
 }
 
-.services__box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .services__list {
-    display: flex;
-    row-gap: 60px;
-    flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 
 .services__list-item {
     display: flex;
-    align-self: center;
-    max-width: 420px;
-    max-height: 250px;
+    flex: 1 1 calc(100%/3);
     position: relative;
-    padding-top: 112px;
-}
-
-.services__list-item--title {
-    font-size: 1.375rem;
-    font-weight: 700;
-    text-align: center;
-}
-
-.services__list-item a img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.services__list-item a h3 {
-    font-size: 1.375rem;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.services__list-item a p {
-    text-align: center;
-    line-height: 22px;
-}
-
-.banner-container {
-    background: url(../image/banner.png) right/cover;
-    height: 640px;
-    padding-right: 77px;
-}
-
-.banner__title {
-    min-height: 96px;
-    width: 628px;
-    margin-left: 50%;
-}
-
-.banner__title h2 {
-    font-size: 2.25rem;
-    line-height: 48px;
-    text-align: left;
-    padding-top: 65px;
-    padding-bottom: 26px;
-}
-
-.banner__paragraph {
-    min-height: 270px;
-    width: 628px;
-    margin-left: 50%;
-    line-height: 22px;
-}
-
-.banner__paragraph p:not(:last-child) {
-    margin-bottom: 25px;
-}
-
-.banner__paragraph p:nth-child(1) {
-    font-weight: 700;
-}
-
-.banner__paragraph span:only-child {
-    font-weight: 700;
-}
-
-.banner__btn {
-    color: #07A7EB;
-    font-size: 1.125;
-    font-weight: 700;
-    padding: 19px 32px;
-    margin-left: 50%;
-    margin-top: 40px;
-    border: 3px solid #07A7EB;
-    box-sizing: border-box;
+    padding: 139px 0 33px;
+    cursor: pointer;
     border-radius: 8px;
-    outline-style: none;
 }
 
-.banner__btn:hover {
-    color: #FFFFFF;
-    background: #07A7EB;
+.services__list-item:hover {
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
 }
 
-.banner__btn:active {
-    color: #FFFFFF;
-    background-color: #017BBF;
-    border: 3px solid #017BBF;
+.item1 {
+    background-image: url("../image/import.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
 }
 
-.partners {
-    margin-bottom: 66px;
+.item1:hover {
+    background-image: url(../image/import_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
 }
 
-.partners__title h2 {
-    font-size: 2.25rem;
-    font-weight: 400px;
-    line-height: 48px;
-    text-align: center;
-    padding-top: 63px;
-    margin-bottom: 50px;
+.item2 {
+    background-image: url("../image/broker.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
 }
 
-.partners__logo img:not(:nth-child(5n)) {
-    padding-right: 50px;
+.item2:hover {
+    background-image: url(../image/broker_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
 }
 
-.form-group {
-    background: url(../image/bg_form.png);
-    min-height: 640px;
+.item3 {
+    background-image: url("../image/export.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
 }
 
-.form__title {
-    color: #FFFFFF;
-    font-size: 2.25rem;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 63px;
+.item3:hover {
+    background-image: url(../image/export_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
 }
 
-.button2 {
-    padding: 19px 147px;
+.item4 {
+    background-image: url("../image/car.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item4:hover {
+    background-image: url(../image/car_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item5 {
+    background-image: url("../image/insurance.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item5:hover {
+    background-image: url(../image/insurance_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item6 {
+    background-image: url("../image/lawyer.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item6:hover {
+    background-image: url(../image/lawyer_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item7 {
+    background-image: url("../image/china.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item7:hover {
+    background-image: url(../image/china_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item8 {
+    background-image: url("../image/harbor.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item8:hover {
+    background-image: url(../image/harbor_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item9 {
+    background-image: url("../image/logistics.png");
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.item9:hover {
+    background-image: url(../image/logistics_hover.png);
+    background-repeat: no-repeat;
+    background-position: center 27px;
+}
+
+.services__list-link {
+    padding: 25px 45px 11px;
+}
+
+.services__list-link h3 {
+    
 }

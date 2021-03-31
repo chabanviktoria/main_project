@@ -21,10 +21,10 @@
                     <li class="header__list-item"><a href="#P5" class="header__list-link link">Контакты</a></li>
                 </ul>
             </nav>
-            <select name="" id="">
-                <option value="">Укр</option>
-                <option value="">Рус</option>
-                <option value="">Eng</option>
+            <select>
+                <option value="Укр">Укр</option>
+                <option value="Рус">Рус</option>
+                <option value="Eng">Eng</option>
             </select>
         </div>
     </header>
@@ -44,7 +44,7 @@
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="P1">
             <div class="container services-container">
                 <h2 class="services__title">Наши услуги</h2>
 
@@ -93,7 +93,7 @@
                 </ul>
             </div>
         </section>
-        <section class="banner">
+        <section class="banner" id="P2">
             <div class="container banner-container">
                 <div class="banner__content">
                     <h2>О компании “Морской Сервис Украины”</h2>
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section>
-        <section class="partners">
+        <section class="partners" id="P3">
             <div class="container">
                 <div class="partners__title">
                     <h2>Наши партнеры</h2>
@@ -135,22 +135,21 @@
                 </div>
             </div>
         </section>
-        <section class="form">
+        <section class="form" id="P4">
             <div class="container">
                 <h2>Запрос ставки</h2>
                 <form class="form__group">
-                    <p><input type="text" name="from" placeholder="Откуда"></p>
-                    <p><input type="text" name="where" placeholder="Куда"></p>
-                    <p><input type="text" name="name" placeholder="Ваше имя"></p>
-                    <p><input type="tel" name="phone_number" placeholder="+38 (___) ___-__-__"
-                            pattern="\+\d{2}\d{3}\d{3}\d{2}\d{2}"></p>
-                    <p class="form__textarea"><textarea name="comment" cols="78" rows="8"
-                            placeholder="Детали"></textarea></p>
-                    <button class="button button__form">ОТПРАВИТЬ ЗАПРОС НА ОЦЕНКУ</button>
+                    <label class="form__group-label"><input type="text" name="from" placeholder="Откуда"></label>
+                    <label class="form__group-label"><input type="text" name="where" placeholder="Куда"></label>
+                    <label class="form__group-label"><input type="text" name="name" placeholder="Ваше имя"></label>
+                    <label class="form__group-label"><input type="tel" name="phone_number" placeholder="+38 (___) ___-__-__"></label>
+                    <textarea name="comment" cols="78" rows="8" placeholder="Детали"></textarea>
+                    
+                    <button class="button form__btn">ОТПРАВИТЬ ЗАПРОС НА ОЦЕНКУ</button>
                 </form>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="P5">
             <div class="contacts__title">
                 <h2>Контактная информация</h2>
             </div>
@@ -159,21 +158,22 @@
                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1616499466234!5m2!1sru!2sua"
                     width="610" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <ul class="contacts__list">
-                    <li><span>Адрес компании</span>
+                    <li><h6 class="contacts__list-title">Адрес компании</h6>
                         <ul>
-                            <li class="contacts__list-item item__adress">ул. Щеголева, 14, Одесса, Одесская область, 65000</li>
+                            <li class="contacts__list-item item__address">ул. Щеголева, 14, Одесса, Одесская область,
+                                65000</li>
                         </ul>
                     </li>
-                    <li><span>Телефоны</span>
+                    <li><h6 class="contacts__list-title">Телефоны</h6>
                         <ul>
-                            <li class="contacts__list-item item__tell">+38 063 3522222 (Направление импорта)</li>
-                            <li class="contacts__list-item item__tell">+38 097 3622145 (Направление экспорта)</li>
-                            <li class="contacts__list-item item__tell">+38 050 8905678 (Общая информация)</li>
+                            <li class="contacts__list-item item__tell"><a href="tel:+380633522222">+38 063 3522222</a> (Направление импорта)</li>
+                            <li class="contacts__list-item item__tell"><a href="tel:+380973622145">+38 097 3622145</a> (Направление экспорта)</li>
+                            <li class="contacts__list-item item__tell"><a href="tel:+380508905678">+38 050 8905678</a> (Общая информация)</li>
                         </ul>
                     </li>
-                    <li><span>Email</span>
+                    <li><h6 class="contacts__list-title">Email</h6>
                         <ul>
-                            <li class="contacts__list-item item__email">clients_info@msutrader.com</li>
+                            <li class="contacts__list-item item__email"><a href="mailto:clients_info@msutrader.com">clients_info@msutrader.com</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -153,8 +153,8 @@ h2 {
     ;
 }
 
-.button__hero {
-    min-width: 380px;
+.hero__btn {
+    max-width: 380px;
     padding: 19px 60px;
 }
 
@@ -189,84 +189,84 @@ h2 {
     box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
 }
 
-.item1 {
+.item__import {
     background-image: url("../image/import.png");
 
 }
 
-.item1:hover {
+.item__import:hover {
     background-image: url("../image/import_hover.png");
     transition: all .5s ease;
 }
 
-.item2 {
+.item__broker {
     background-image: url("../image/broker.png");
 }
 
-.item2:hover {
+.item__broker:hover {
     background-image: url("../image/broker_hover.png");
     transition: all .5s ease;
 }
 
-.item3 {
+.item__export {
     background-image: url("../image/export.png");
 }
 
-.item3:hover {
+.item__export:hover {
     background-image: url("../image/export_hover.png");
     transition: all .5s ease;
 }
 
-.item4 {
+.item__car {
     background-image: url("../image/car.png");
 }
 
-.item4:hover {
+.item__car:hover {
     background-image: url("../image/car_hover.png");
     transition: all .5s ease;
 }
 
-.item5 {
+.item__insurance {
     background-image: url("../image/insurance.png");
 }
 
-.item5:hover {
+.item__insurance:hover {
     background-image: url("../image/insurance_hover.png");
     transition: all .5s ease;
 }
 
-.item6 {
+.item__lawyer {
     background-image: url("../image/lawyer.png");
 }
 
-.item6:hover {
+.item__lawyer:hover {
     background-image: url("../image/lawyer_hover.png");
     transition: all .5s ease;
 }
 
-.item7 {
+.item__china {
     background-image: url("../image/china.png");
 }
 
-.item7:hover {
+.item__china:hover {
     background-image: url("../image/china_hover.png");
     transition: all .5s ease;
 }
 
-.item8 {
+.item__harbor {
     background-image: url("../image/harbor.png");
 }
 
-.item8:hover {
+.item__harbor:hover {
     background-image: url("../image/harbor_hover.png");
     transition: all .5s ease;
 }
 
-.item9 {
+.item__logistics {
     background-image: url("../image/logistics.png");
 }
 
-.item9:hover {
+.item__logistics:hover {
     background-image: url("../image/logistics_hover.png");
     transition: all .5s ease;
 }
@@ -405,38 +405,33 @@ h2 {
 .form__group-label {
     max-width: 384px;
     width: 100%;
+    position: relative;
 }
 
 .form__group-label::before {
     content: " ";
     display: block;
+    position: absolute;
+    top: 19px;
+    left: 21px;
     width: 18px;
     height: 18px;
-    position: absolute;
     background-repeat: no-repeat;
 }
 
 .form__from::before {
-    top: 19px;
-    left: 21px;
-    background: url(../image/icon_from_where.png);
+    background-image: url(../image/icon_from_where.png);
 }
 
 .form__where::before {
-    top: 19px;
-    left: 429px;
     background: url(../image/icon_from_where.png);
 }
 
 .form__name::before {
-    top: 98px;
-    left: 21px;
     background: url(../image/icon_user.png);
 }
 
 .form__phone_number::before {
-    top: 98px;
-    left: 429px;
     background: url(../image/icon_phone.png);
 }
 
@@ -517,3 +512,5 @@ h2 {
 .item__email {
     background-image: url(../image/icon_email.png);
 }
+
+

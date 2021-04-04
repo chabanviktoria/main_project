@@ -40,7 +40,7 @@
                     <li class="hero__list-item"><span class="hero__list-item--fonts">Безупречная</span> репутация</li>
                 </ul>
 
-                <button class="button button__hero">ЗАПРОС СТАВКИ</button>
+                <button class="button hero__btn">ЗАПРОС СТАВКИ</button>
             </div>
         </section>
 
@@ -49,44 +49,44 @@
                 <h2 class="services__title">Наши услуги</h2>
 
                 <ul class="services__list">
-                    <li class="services__list-item item1">
+                    <li class="services__list-item item__import">
                         <h3>Импорт всех групп товаров</h3>
                         <p> из любой точки земного шара НА территорию Украины! </p>
 
                     </li>
-                    <li class="services__list-item item2">
+                    <li class="services__list-item item__broker">
                         <h3>Полный комплекс брокерских услуг</h3>
                         <p>по таможенному оформлению экспортно-импортных грузов (под ключ)</p>
 
                     </li>
-                    <li class="services__list-item item3">
+                    <li class="services__list-item item__export">
                         <h3>Экспорт всех групп товаров</h3>
                         <p> ИЗ Украины в любую страну, а так же транзит из близ лежащих стран</p>
 
                     </li>
-                    <li class="services__list-item item4">
+                    <li class="services__list-item item__car">
                         <h3>Авто доставка</h3>
                         <p>любого автомобиля из США, Кореи и ЕС со всеми документами</p>
 
                     </li>
-                    <li class="services__list-item item5">
+                    <li class="services__list-item item__insurance">
                         <h3>Страхование грузов</h3>
                         <p>и ответственности перевозчика в полном объеме законодательства</p>
 
                     </li>
-                    <li class="services__list-item item6">
+                    <li class="services__list-item item__lawyer">
                         <h3>Юридическая поддержка</h3>
                         <p>и консультирование клиентов на всем пути следования грузов</p>
                     </li>
-                    <li class="services__list-item item7">
+                    <li class="services__list-item item__china">
                         <h3>Закупки товаров из Китая</h3>
                         <p>с нашей помощью и консультациями по доставке в Украину</p>
                     </li>
-                    <li class="services__list-item item8">
+                    <li class="services__list-item item__harbor">
                         <h3>Внутрипортовое экспедирование</h3>
                         <p>с соблюдением всех правил оформления прибывшего груза</p>
                     </li>
-                    <li class="services__list-item item9">
+                    <li class="services__list-item item__logistics">
                         <h3>Организация логистики</h3>
                         <p>на складах в портах Украины и других стран мира - США, ЕС и Азии</p>
                     </li>
@@ -154,9 +154,8 @@
                 <h2>Контактная информация</h2>
             </div>
             <div class="container contacts-container">
-                <iframe class="contacts__iframe"
-                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1616499466234!5m2!1sru!2sua"
-                    width="610" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.3874980401!2d30.717458715843204!3d46.50043947912689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c631da96c191d5%3A0xa66df27351ed251a!2z0YPQuy4g0KnQtdCz0L7Qu9C10LLQsCwgMTQsINCe0LTQtdGB0YHQsCwg0J7QtNC10YHRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1617549901871!5m2!1sru!2sua" 
+                width="610" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <ul class="contacts__list">
                     <li><h6 class="contacts__list-title">Адрес компании</h6>
                         <ul>
@@ -183,25 +182,30 @@
     <footer>
         <div class="container">
             <div class="footer__info">
-                <a class="footer__logo-link" href="#"><img src="./image/logo_footer.png" alt="Logo"></a>
-                <ul class="footer__list__client">Клиентам
-                    <li><a class="footer__link link" href="#" target="_self">Услуги</a></li>
-                    <li><a class="footer__link link" href="#" target="_self">О компании</a></li>
-                    <li><a class="footer__link link" href="#" target="_self">Партнеры</a></li>
-                    <li><a class="footer__link link" href="#" target="_self">Новости</a></li>
-                    <li><a class="footer__link link" href="#" target="_self">Контакты</a></li>
+                <a class="footer__logo-link" href="#" target="_self"><img src="./image/logo_footer.png" alt="Logo"></a>
+                <h6 class="footer__title">Клиентам</h6>
+                <ul class="footer__list__client">
+                    <li class="footer__list__client-item"><a href="#P1" class="footer__list__client-link link" target="_self">Услуги</a></li>
+                    <li class="footer__list__client-item"><a href="#P2" class="footer__list__client-link link" target="_self">О компании</a></li>
+                    <li class="footer__list__client-item"><a href="#P3" class="footer__list__client-link link" target="_self">Партнеры</a></li>
+                    <li class="footer__list__client-item"><a href="#P4" class="footer__list__client-link link" target="_self">Новости</a></li>
+                    <li class="footer__list__client-item"><a href="#P5" class="footer__list__client-link link" target="_self">Контакты</a></li>
                 </ul>
-                <ul class="footer__list__worktime">Время работы
+                <h6 class="footer__title">Время работы</h6>
+                <ul class="footer__list__worktime">
                     <li>Пн-Пт - 09:00-18:00</li>
                     <li>Сб-Вс - выходной</li>
                 </ul>
-                <ul>Мы в соцсетях
-                    <li><a><img src="./image/facebook.png" alt="Facebook"></a></li>
-                    <li><a><img src="./image/youtube.png" alt="Youtube"></a></li>
-                    <li><a><img src="./image/twitter.png" alt="Twitter"></a></li>
+                <h6 class="footer__title">Мы в соцсетях</h6>
+                <ul>
+                    <li><a href="#" target="_self"><img src="./image/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#" target="_self"><img src="./image/youtube.png" alt="Youtube"></a></li>
+                    <li><a href="#" target="_self"><img src="./image/twitter.png" alt="Twitter"></a></li>
                 </ul>
-                <ul>Контакты
-                    <li>+38 063 3522222</li>
+                <h6 class="footer__title">Контакты</h6>
+                <ul>
+                    <!-- Чи потрібно ставити target="_self" для телефонів і емейл? -->
+                    <li><a href="tel:+380633522222" class="link">+38 063 3522222</a></li>
                     <li>ул. Щеголева, 14, Одесса, Одесская область, 65000</li>
                 </ul>
                 <button class="button button-footer">ЗАПРОС СТАВКИ</button>
@@ -211,8 +215,8 @@
                     © 2020 МСУ. Логистические услуги.
                 </p>
                 <ul>
-                    <li><a>Стать нашим партнером</a></li>
-                    <li><a>Политика конфиденциальности</a></li>
+                    <li><a href="#" class="link" target="_self">Стать нашим партнером</a></li>
+                    <li><a href="#" class="link" target="_self">Политика конфиденциальности</a></li>
                 </ul>
             </div>
         </div>

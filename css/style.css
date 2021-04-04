@@ -70,6 +70,10 @@ h2 {
     column-gap: 41px;
 }
 
+.header__list-item {
+    white-space: nowrap;
+}
+
 .header__list-link {
     transition: all .5s ease;
 }
@@ -156,6 +160,7 @@ h2 {
 .hero__btn {
     max-width: 380px;
     padding: 19px 60px;
+    width: 100%;
 }
 
 .services {
@@ -514,3 +519,26 @@ h2 {
 }
 
 
+
+
+
+@media screen and (max-width: 1350px) {
+    .container {
+        max-width: 93%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .header__list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__list li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .form__group {
+        justify-content: center;
+    }
+}

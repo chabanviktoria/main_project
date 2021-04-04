@@ -139,10 +139,10 @@
             <div class="container">
                 <h2>Запрос ставки</h2>
                 <form class="form__group">
-                    <label class="form__group-label"><input type="text" name="from" placeholder="Откуда"></label>
-                    <label class="form__group-label"><input type="text" name="where" placeholder="Куда"></label>
-                    <label class="form__group-label"><input type="text" name="name" placeholder="Ваше имя"></label>
-                    <label class="form__group-label"><input type="tel" name="phone_number" placeholder="+38 (___) ___-__-__"></label>
+                    <label class="form__group-label form__from"><input type="text" name="from" placeholder="Откуда"></label>
+                    <label class="form__group-label form__where"><input type="text" name="where" placeholder="Куда"></label>
+                    <label class="form__group-label form__name"><input type="text" name="name" placeholder="Ваше имя"></label>
+                    <label class="form__group-label form__phone_number"><input type="tel" name="phone_number" placeholder="+38 (___) ___-__-__"></label>
                     <textarea name="comment" cols="78" rows="8" placeholder="Детали"></textarea>
                     
                     <button class="button form__btn">ОТПРАВИТЬ ЗАПРОС НА ОЦЕНКУ</button>
@@ -154,7 +154,7 @@
                 <h2>Контактная информация</h2>
             </div>
             <div class="container contacts-container">
-                <iframe
+                <iframe class="contacts__iframe"
                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1616499466234!5m2!1sru!2sua"
                     width="610" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <ul class="contacts__list">
@@ -166,14 +166,14 @@
                     </li>
                     <li><h6 class="contacts__list-title">Телефоны</h6>
                         <ul>
-                            <li class="contacts__list-item item__tell"><a href="tel:+380633522222">+38 063 3522222</a> (Направление импорта)</li>
-                            <li class="contacts__list-item item__tell"><a href="tel:+380973622145">+38 097 3622145</a> (Направление экспорта)</li>
-                            <li class="contacts__list-item item__tell"><a href="tel:+380508905678">+38 050 8905678</a> (Общая информация)</li>
+                            <li class="contacts__list-item item__tell"><a href="tel:+380633522222" class="contacts__list-link link">+38 063 3522222</a> (Направление импорта)</li>
+                            <li class="contacts__list-item item__tell"><a href="tel:+380973622145" class="contacts__list-link link">+38 097 3622145</a> (Направление экспорта)</li>
+                            <li class="contacts__list-item item__tell"><a href="tel:+380508905678" class="contacts__list-link link">+38 050 8905678</a> (Общая информация)</li>
                         </ul>
                     </li>
                     <li><h6 class="contacts__list-title">Email</h6>
                         <ul>
-                            <li class="contacts__list-item item__email"><a href="mailto:clients_info@msutrader.com">clients_info@msutrader.com</a></li>
+                            <li class="contacts__list-item item__email"><a href="mailto:clients_info@msutrader.com" class="link">clients_info@msutrader.com</a></li>
                         </ul>
                     </li>
                 </ul>

@@ -365,7 +365,7 @@ h2 {
 
 .form {
     background: linear-gradient(180deg, #073B79 0%, rgba(3, 42, 89, 0) 64.06%), url(../image/bg_form.png);
-    padding: 65px 0 94px;
+    padding: 65px 0;
 }
 
 .form h2 {
@@ -379,6 +379,7 @@ h2 {
 .form__group {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     max-width: 794px;
@@ -404,6 +405,39 @@ h2 {
 .form__group-label {
     max-width: 384px;
     width: 100%;
+}
+
+.form__group-label::before {
+    content: " ";
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.form__from::before {
+    top: 19px;
+    left: 21px;
+    background: url(../image/icon_from_where.png);
+}
+
+.form__where::before {
+    top: 19px;
+    left: 429px;
+    background: url(../image/icon_from_where.png);
+}
+
+.form__name::before {
+    top: 98px;
+    left: 21px;
+    background: url(../image/icon_user.png);
+}
+
+.form__phone_number::before {
+    top: 98px;
+    left: 429px;
+    background: url(../image/icon_phone.png);
 }
 
 .form__group input {
@@ -438,6 +472,10 @@ h2 {
     justify-content: start;
 }
 
+.contacts__iframe {
+    margin-right: 60px;
+}
+
 .contacts__title {
     text-align: center;
     font-size: 2.25rem;
@@ -454,13 +492,17 @@ h2 {
 .contacts__list-title {
     font-size: 1.125rem;
     font-weight: 700;
-    padding-left: 60px;
+    margin-bottom: 17px;
+    
 }
 
 .contacts__list-item {
-    padding-left: 94px;
+    padding-left: 37px;
     background-repeat: no-repeat;
-    background-position: 60px 0;
+}
+
+.contacts__list-link {
+    font-size: 1.375rem;
 }
 
 .item__address {
@@ -469,6 +511,7 @@ h2 {
 
 .item__tell {
     background-image: url(../image/icon_phone.png);
+    padding-bottom: 17px;
 }
 
 .item__email {

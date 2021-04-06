@@ -63,6 +63,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header__list {
@@ -286,8 +287,10 @@ h2 {
 }
 
 .services__list-item p {
-    min-width: 330px;
+    max-width: 330px;
+    min-width: 250px;
     line-height: 22px;
+    margin: 0 auto;
 }
 
 .banner-container {
@@ -493,7 +496,7 @@ h2 {
     font-size: 1.125rem;
     font-weight: 700;
     margin-bottom: 17px;
-    
+
 }
 
 .contacts__list-item {
@@ -529,12 +532,13 @@ h2 {
 }
 
 @media screen and (max-width: 860px) {
-    .container {
-        max-width: 80%;
-    }
-
 
     /* HEADER */
+    .header__nav {
+        width: 100%;
+        order: 1;
+    }
+
     .header__list {
         flex-direction: column;
         text-align: center;
@@ -549,15 +553,27 @@ h2 {
     .form__group {
         justify-content: center;
     }
+
+    .contacts-container {
+        flex-direction: column;
+    }
+
+    .contacts__iframe {
+        max-width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .contacts__list-link {
+        font-size: 1.2rem;
 }
 
 @media screen and (max-width: 420px) {
-    
+
     .header__container {
         max-width: 95%;
         justify-content: space-between;
     }
-    
+
     .hero__title {
         font-size: 2rem;
         line-height: 1.6;
@@ -588,17 +604,7 @@ h2 {
         padding-bottom: 50px;
     }
 
-    .contacts-container {
-        flex-direction: column;
-    }
 
-    .contacts__iframe {
-        max-width: 100%;
-        margin-bottom: 35px;
-    }
-
-    .contacts__list-link {
-        font-size: 1.2rem;
 /* Як зробити перенесення дужок на наступний рядок */
 
     }

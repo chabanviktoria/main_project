@@ -97,7 +97,7 @@ h2 {
 
 .hero {
     padding: 80px 0 109px;
-    background: url("../image/hero.png") left/cover #036092;
+    background: url("../image/hero.jpg") left/cover #036092;
     min-height: 650px;
     color: #FFFFFF;
 }
@@ -195,84 +195,84 @@ h2 {
 }
 
 .item__import {
-    background-image: url("../image/import.png");
+    background-image: url("../image/import.svg");
 
 }
 
 .item__import:hover {
-    background-image: url("../image/import_hover.png");
+    background-image: url("../image/import_hover.svg");
     transition: all .5s ease;
 }
 
 .item__broker {
-    background-image: url("../image/broker.png");
+    background-image: url("../image/broker.svg");
 }
 
 .item__broker:hover {
-    background-image: url("../image/broker_hover.png");
+    background-image: url("../image/broker_hover.svg");
     transition: all .5s ease;
 }
 
 .item__export {
-    background-image: url("../image/export.png");
+    background-image: url("../image/export.svg");
 }
 
 .item__export:hover {
-    background-image: url("../image/export_hover.png");
+    background-image: url("../image/export_hover.svg");
     transition: all .5s ease;
 }
 
 .item__car {
-    background-image: url("../image/car.png");
+    background-image: url("../image/car.svg");
 }
 
 .item__car:hover {
-    background-image: url("../image/car_hover.png");
+    background-image: url("../image/car_hover.svg");
     transition: all .5s ease;
 }
 
 .item__insurance {
-    background-image: url("../image/insurance.png");
+    background-image: url("../image/insurance.svg");
 }
 
 .item__insurance:hover {
-    background-image: url("../image/insurance_hover.png");
+    background-image: url("../image/insurance_hover.svg");
     transition: all .5s ease;
 }
 
 .item__lawyer {
-    background-image: url("../image/lawyer.png");
+    background-image: url("../image/lawyer.svg");
 }
 
 .item__lawyer:hover {
-    background-image: url("../image/lawyer_hover.png");
+    background-image: url("../image/lawyer_hover.svg");
     transition: all .5s ease;
 }
 
 .item__china {
-    background-image: url("../image/china.png");
+    background-image: url("../image/china.svg");
 }
 
 .item__china:hover {
-    background-image: url("../image/china_hover.png");
+    background-image: url("../image/china_hover.svg");
     transition: all .5s ease;
 }
 
 .item__harbor {
-    background-image: url("../image/harbor.png");
+    background-image: url("../image/harbor.svg");
 }
 
 .item__harbor:hover {
-    background-image: url("../image/harbor_hover.png");
+    background-image: url("../image/harbor_hover.svg");
     transition: all .5s ease;
 }
 
 .item__logistics {
-    background-image: url("../image/logistics.png");
+    background-image: url("../image/logistics.svg");
 }
 
 .item__logistics:hover {
-    background-image: url("../image/logistics_hover.png");
+    background-image: url("../image/logistics_hover.svg");
     transition: all .5s ease;
 }
 
@@ -291,7 +291,7 @@ h2 {
 }
 
 .banner-container {
-    background: url("../image/banner.png") no-repeat right/cover, #cccccc;
+    background: url("../image/banner.jpg") no-repeat right/cover, #cccccc;
     padding: 65px 77px 85px 15px;
 }
 
@@ -369,7 +369,7 @@ h2 {
 }
 
 .form {
-    background: linear-gradient(180deg, #073B79 0%, rgba(3, 42, 89, 0) 64.06%), url(../image/bg_form.png);
+    background: linear-gradient(180deg, #073B79 0%, rgba(3, 42, 89, 0) 64.06%), url(../image/bg_form.jpg);
     padding: 65px 0;
 }
 

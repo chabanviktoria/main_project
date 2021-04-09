@@ -521,6 +521,49 @@ h2 {
     background-image: url(../image/icon_email.png);
 }
 
+.footer {
+    background: #E9F8FF;
+    padding: 53px 0 35px;
+}
+
+.footer__info {
+    display: flex;
+    
+}
+
+.footer__logo-link {
+    padding-right: 100px;
+}
+
+.footer__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.footer__block {
+    max-width: 250px;
+    width: 100%;
+}
+
+.footer__network__list {
+    display: flex;
+}
+
+
+.footer__network__list li {
+    margin-right: 19px;
+}
+
+.footer-btn {
+    width: 100%;
+    padding: 19px 0;
+}
+
+.footer__conditions {
+    border-top: solid 1px #95CEE7;
+}
+
 
 /* Ще раз запитати про розподіл розмірів екранів */
 

@@ -528,7 +528,7 @@ h2 {
 
 .footer__info {
     display: flex;
-    
+    padding-bottom: 49px;
 }
 
 .footer__logo-link {
@@ -546,10 +546,21 @@ h2 {
     width: 100%;
 }
 
+.footer__list-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer__list-item span {
+    line-height: 22px;
+}
+
 .footer__network__list {
     display: flex;
 }
 
+.title__network {
+    padding-top: 33px;
+}
 
 .footer__network__list li {
     margin-right: 19px;
@@ -558,10 +569,15 @@ h2 {
 .footer-btn {
     width: 100%;
     padding: 19px 0;
+    margin-top: 29px;
 }
 
 .footer__conditions {
     border-top: solid 1px #95CEE7;
+}
+
+.footer__conditions-info {
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -569,6 +585,17 @@ h2 {
 .footer__conditions-list {
     display: flex;
     justify-content: space-between;
+    max-width: 480px;
+    width: 100%;
+}
+
+.footer__list-link {
+    transition: all .5s ease;
+}
+
+.footer__list-link:hover {
+    color: #07A7EB;
+    text-decoration: underline;
 }
 
 

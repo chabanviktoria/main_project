@@ -562,6 +562,13 @@ h2 {
 
 .footer__conditions {
     border-top: solid 1px #95CEE7;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__conditions-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 

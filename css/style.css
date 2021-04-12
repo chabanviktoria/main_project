@@ -330,10 +330,11 @@ h2 {
     font-size: 1.125rem;
     font-weight: 700;
     color: #07A7EB;
-    padding: 19px 32px;
+    padding: 19px 0;
     border: 3px solid #07A7EB;
     border-radius: 8px;
     outline-style: none;
+    width: 100%;
 }
 
 .banner__btn:hover {
@@ -599,9 +600,6 @@ h2 {
 }
 
 
-/* Ще раз запитати про розподіл розмірів екранів */
-
-
 @media screen and (max-width: 1350px) {
     .container {
         max-width: 93%;
@@ -637,11 +635,25 @@ h2 {
 
     .contacts__iframe {
         max-width: 100%;
-        margin-bottom: 35px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .contacts__list {
+        margin: 0 auto;
     }
 
     .contacts__list-link {
         font-size: 1.2rem;
+}
+
+.item__address {
+    margin-bottom: 15px;
+}
+
+.footer__info {
+    
+}
 }
 
 @media screen and (max-width: 420px) {
@@ -672,6 +684,10 @@ h2 {
         line-height: 27px;
     }
 
+    .partners__title {
+        font-size: 1.8rem;
+    }
+
     .partners__logo {
         justify-content: center;
     }
@@ -679,10 +695,5 @@ h2 {
     .contacts__title {
         font-size: 1.7rem;
         padding-bottom: 50px;
-    }
-
-
-/* Як зробити перенесення дужок на наступний рядок */
-
     }
 }

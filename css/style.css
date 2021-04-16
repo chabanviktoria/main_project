@@ -98,7 +98,7 @@ h2 {
 
 .hero {
     padding: 80px 0 109px;
-    background: url("../image/hero.jpg") left/cover #036092;
+    background: url("../image/hero-min.jpg") left/cover #036092;
     min-height: 650px;
     color: #FFFFFF;
 }
@@ -126,7 +126,7 @@ h2 {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("../image/vector.png");
+    background: url("../image/Vector.png");
     width: 24px;
     height: 14px;
 }
@@ -294,7 +294,7 @@ h2 {
 }
 
 .banner-container {
-    background: url("../image/banner.jpg") no-repeat right/cover, #cccccc;
+    background: url("../image/banner-min.jpg") no-repeat right/cover, #cccccc;
     padding: 65px 77px 85px 15px;
 }
 
@@ -353,10 +353,11 @@ h2 {
     padding: 63px 0 66px;
 }
 
-.partners__title {
+.partners__title h2 {
     font-size: 2.25rem;
     font-weight: 400;
     text-align: center;
+    padding-bottom: 61px;
 }
 
 .partners__logo {
@@ -373,7 +374,7 @@ h2 {
 }
 
 .form {
-    background: linear-gradient(180deg, #073B79 0%, rgba(3, 42, 89, 0) 64.06%), url(../image/bg_form.jpg);
+    background: linear-gradient(180deg, #073B79 0%, rgba(3, 42, 89, 0) 64.06%), url(../image/bg_form-min.jpg);
     padding: 65px 0;
 }
 
@@ -395,21 +396,6 @@ h2 {
     margin: 0 auto;
     gap: 24px;
 }
-
-/*
-!!!Запитати за правила!!!
-
-@supports (gap: 24px) {
-    .form__group {
-        gap: 24px;
-    }
-}
-
-@supports not (gap: 24px) {
-    .form__group:not(:nth-of-type(2n)) {
-        margin: 0 24px 24px 0;
-    }
-}*/
 
 .form__group-label {
     max-width: 384px;
@@ -480,7 +466,7 @@ h2 {
     margin-right: 60px;
 }
 
-.contacts__title {
+.contacts__title h2 {
     text-align: center;
     font-size: 2.25rem;
     font-weight: 400;
@@ -530,21 +516,14 @@ h2 {
 .footer__info {
     display: flex;
     padding-bottom: 49px;
-}
-
-.footer__logo-link {
-    padding-right: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer__title {
     font-size: 1.125rem;
     font-weight: 700;
     padding-bottom: 25px;
-}
-
-.footer__block {
-    max-width: 250px;
-    width: 100%;
 }
 
 .footer__list-item:not(:last-child) {

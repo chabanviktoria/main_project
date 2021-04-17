@@ -126,7 +126,7 @@ h2 {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("../image/Vector.png");
+    background: url("../image/vector.svg");
     width: 24px;
     height: 14px;
 }
@@ -415,19 +415,19 @@ h2 {
 }
 
 .form__from::before {
-    background-image: url(../image/icon_from_where.png);
+    background-image: url(../image/icon_from_where.svg);
 }
 
 .form__where::before {
-    background: url(../image/icon_from_where.png);
+    background: url(../image/icon_from_where.svg);
 }
 
 .form__name::before {
-    background: url(../image/icon_user.png);
+    background: url(../image/icon_user.svg);
 }
 
 .form__phone_number::before {
-    background: url(../image/icon_phone.png);
+    background: url(../image/icon_phone.svg);
 }
 
 .form__group input {
@@ -496,16 +496,16 @@ h2 {
 }
 
 .item__address {
-    background-image: url(../image/icon_address.png);
+    background-image: url(../image/icon_address.svg);
 }
 
 .item__tell {
-    background-image: url(../image/icon_phone.png);
+    background-image: url(../image/icon_phone.svg);
     padding-bottom: 17px;
 }
 
 .item__email {
-    background-image: url(../image/icon_email.png);
+    background-image: url(../image/icon_email.svg);
 }
 
 .footer {
@@ -516,8 +516,17 @@ h2 {
 .footer__info {
     display: flex;
     padding-bottom: 49px;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer__block {
+    flex: 1 1 220px;
+}
+
+.footer__logo-link {
+    flex: 1 1 220px;
 }
 
 .footer__title {
@@ -536,6 +545,7 @@ h2 {
 
 .footer__network__list {
     display: flex;
+    justify-content: center;
 }
 
 .title__network {
@@ -558,15 +568,12 @@ h2 {
 
 .footer__conditions-info {
     padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .footer__conditions-list {
     display: flex;
     justify-content: space-between;
-    max-width: 480px;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .footer__list-link {
@@ -602,6 +609,10 @@ h2 {
         margin-bottom: 10px;
     }
 
+    .partners__logo {
+        justify-content: center;
+    }
+
     /* FORM */
 
     .form__group {
@@ -630,9 +641,14 @@ h2 {
     margin-bottom: 15px;
 }
 
-.footer__info {
-    
+.footer__clients {
+    padding-bottom: 30px;
 }
+
+.footer__network {
+    padding-bottom: 30px;
+}
+
 }
 
 @media screen and (max-width: 420px) {
@@ -665,10 +681,6 @@ h2 {
 
     .partners__title {
         font-size: 1.8rem;
-    }
-
-    .partners__logo {
-        justify-content: center;
     }
 
     .contacts__title {
